@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture white
+	$bumpmap dev/flat_normal
+	$phong 1
+	$phongfresnelranges "[2 0 0]"
+	$envmap cubemaps/cubemap_sheen002
+	$envmaptint "[1.5 1.5 1.9]"
+	$selfillum 1
+	$selfillumFresnel 1
+	$envmapFresnel 1
+}

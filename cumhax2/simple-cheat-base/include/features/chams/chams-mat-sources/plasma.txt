@@ -1,0 +1,11 @@
+Refract
+{
+	$bumpmap dev/flat_normal
+	$normalmap grey
+	$refractamount 0.03
+	$refracttint "[1 0 5]"
+	$bluramount 1
+	$envmap matsys_regressiontest/cubemap
+	$envmaptint "[1.5 0.5 1.5]"
+	$model 1
+}

@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	$basetexture vgui/white_additive
+	$envmap cubemaps/cubemap_specular001
+	$color2 "[1 1 1]"
+	$envmapcontrast 10
+	$envmaptint "[1 1 1]"
+	$selfillum 1
+	$selfillumFresnel 1
+	$selfillumTint "[1.5 1.5 1.5]"
+}

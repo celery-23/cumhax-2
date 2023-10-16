@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	$basetexture white
+	$bumpmap dev/flat_normal
+	$selfillum 1
+	$selfillumFresnel 1
+	$selfillumFresnelMinMaxExp "[-0.5 0.5 2]"
+	$selfillumTint "[1.0 1.0 1.0]"
+}

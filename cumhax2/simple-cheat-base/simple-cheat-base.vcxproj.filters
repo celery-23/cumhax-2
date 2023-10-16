@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\util\vtable.c" />
+    <ClCompile Include="src\hooks.c" />
+    <ClCompile Include="src\globals.c" />
+    <ClCompile Include="src\util\sig_scan.c" />
+    <ClCompile Include="src\hooks\ClientModeShared_hook.c" />
+    <ClCompile Include="src\features\bhop.c" />
+    <ClCompile Include="external\MinHook\hde\hde32.c" />
+    <ClCompile Include="external\MinHook\hde\hde64.c" />
+    <ClCompile Include="external\MinHook\buffer.c" />
+    <ClCompile Include="external\MinHook\hook.c" />
+    <ClCompile Include="external\MinHook\trampoline.c" />
+    <ClCompile Include="src\hooks\CL_LoadWhitelist_hook.c" />
+    <ClCompile Include="src\hooks\IVModelRender_hook.c" />
+    <ClCompile Include="src\features\chams\chams.c" />
+    <ClCompile Include="src\netvars.c" />
+    <ClCompile Include="external\hashmap\hashmap.c" />
+    <ClCompile Include="src\hooks\IMaterialSystem_hook.c" />
+    <ClCompile Include="src\features\chams\chams_data.c" />
+    <ClCompile Include="src\hooks\COM_TimestampedLog_hook.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\util\vtable.h" />
+    <ClInclude Include="include\hooks.h" />
+    <ClInclude Include="include\tf2\classes\ClientModeShared.h" />
+    <ClInclude Include="include\util\vfunc_macros.h" />
+    <ClInclude Include="include\globals.h" />
+    <ClInclude Include="include\util\sig_scan.h" />
+    <ClInclude Include="include\tf2\classes\IEngineClient.h" />
+    <ClInclude Include="include\tf2\classes\IClientEntityList.h" />
+    <ClInclude Include="include\tf2\classes\CUserCmd.h" />
+    <ClInclude Include="include\tf2\classes\Vector.h" />
+    <ClInclude Include="include\tf2\classes\ICvar.h" />
+    <ClInclude Include="include\hooks\ClientModeShared_hook.h" />
+    <ClInclude Include="include\features\bhop.h" />
+    <ClInclude Include="external\MinHook\hde\hde32.h" />
+    <ClInclude Include="external\MinHook\hde\hde64.h" />
+    <ClInclude Include="external\MinHook\hde\pstdint.h" />
+    <ClInclude Include="external\MinHook\hde\table32.h" />
+    <ClInclude Include="external\MinHook\hde\table64.h" />
+    <ClInclude Include="external\MinHook\buffer.h" />
+    <ClInclude Include="external\MinHook\MinHook.h" />
+    <ClInclude Include="external\MinHook\trampoline.h" />
+    <ClInclude Include="include\hooks\CL_LoadWhitelist_hook.h" />
+    <ClInclude Include="include\tf2\classes\IMaterial.h" />
+    <ClInclude Include="include\tf2\classes\IMaterialSystem.h" />
+    <ClInclude Include="include\tf2\classes\KeyValues.h" />
+    <ClInclude Include="include\tf2\enums.h" />
+    <ClInclude Include="include\tf2\classes\IMaterialVar.h" />
+    <ClInclude Include="include\tf2\classes\IVModelRender.h" />
+    <ClInclude Include="include\tf2\classes\ModelRenderInfo.h" />
+    <ClInclude Include="include\tf2\classes\DrawModelState.h" />
+    <ClInclude Include="include\tf2\classes\matrix.h" />
+    <ClInclude Include="include\hooks\IVModelRender_hook.h" />
+    <ClInclude Include="include\features\chams\chams.h" />
+    <ClInclude Include="include\tf2\classes\ClientClass.h" />
+    <ClInclude Include="include\tf2\classes\IClientEntity.h" />
+    <ClInclude Include="include\tf2\classes\IBaseClientDLL.h" />
+    <ClInclude Include="include\tf2\classes\IClientClass.h" />
+    <ClInclude Include="include\tf2\classes\RecvTable.h" />
+    <ClInclude Include="include\netvars.h" />
+    <ClInclude Include="external\hashmap\hashmap.h" />
+    <ClInclude Include="include\hooks\IMaterialSystem_hook.h" />
+    <ClInclude Include="include\tf2\classes\IVRenderView.h" />
+    <ClInclude Include="include\tf2\classes\IMatRenderContext.h" />
+    <ClInclude Include="include\features\chams\chams_data.h" />
+    <ClInclude Include="include\hooks\COM_TimestampedLog_hook.h" />
+    <ClInclude Include="include\tf2\classes\C_BaseEntity.h" />
+    <ClInclude Include="include\tf2\classes\IVModelInfoClient.h" />
+    <ClInclude Include="include\tf2\classes\model_t.h" />
+    <ClInclude Include="include\tf2\classes\C_BaseCombatWeapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="include\features\chams\chams-mat-sources\shaded.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\features\chams\chams-mat-sources\wireframe.txt" />
+    <None Include="include\features\chams-mat-sources\format_mat_sources.py" />
+  </ItemGroup>
+</Project>

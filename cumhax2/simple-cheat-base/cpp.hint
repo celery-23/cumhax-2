@@ -1,0 +1,7 @@
+#define DECLARE_VFUNC(class_name, func_name, offset, ret_type, ...)
+
+#define DECLARE_VFUNC_EX(class_name, func_name, index, ret_type, calling_convention, ...)
+
+#define GET_VFUNC(class_name, func_name, vtable_ptr_ptr)
+
+#define GET_VFUNC_INDEX(class_name, func_name) class_name##_##func_name##_index
